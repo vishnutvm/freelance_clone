@@ -9,6 +9,7 @@ import Awards from "./components/Awards";
 import Experience from "./components/Experience";
 import Products from "./components/Products";
 import ReviewSection from "./components/Reviews";
+import Footer from "./components/Footer";
 const INITIAL_USER_DATA = {
   name: 'John Powell',
   role: 'Product Manager',
@@ -64,6 +65,7 @@ const UserProfile = () => {
             <Awards />
             <Products products={PRODUCT_DATA} />
             <ReviewSection />
+            <Footer />
           </div>
           <div className="md:w-1/4 ">
             <p>this is test</p>
